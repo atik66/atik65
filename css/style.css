@@ -1,0 +1,116 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+
+    max-width: 1020px;
+    width: 95%;
+    margin: auto;
+}
+.head{
+    background: rgba(36, 35, 33, 0.98);
+    text-align: center;
+    color: white;
+}
+img{
+    height: 300px;
+    width: 300px;
+border-radius: 150px;
+
+}
+.nav{
+    text-align: center;
+    
+}
+ul{
+   padding: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+li{
+    display: inline;
+    margin: 10px;
+    border: 2px solid rgba(255,255,255,.33);
+    padding: 5px;
+    
+}
+
+button
+{
+padding: 10px;
+margin-bottom: 20px;
+
+}
+.im{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.About{
+    text-align: center;
+}
+
+.Acitivity
+{
+text-align: center;
+
+}
+.di{
+    display: flex;
+    justify-content: space-around;
+}
+
+.col{
+    width: 25%;
+    height: 100px;
+    background-color: seagreen;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    background-color: rgba(36, 35, 33, 0.98);;
+}
+
+
+
+@media(max-width:550px){
+
+.nav{
+
+}
+img{
+    height: 200px;
+    width: 200px;
+border-radius: 100px;
+}
+
+.di{
+    flex-direction: column;
+    align-items: center;
+}
+
+.col{
+   width: 30%;
+   margin: 10px;
+}
+
+}
+
+ul li:hover{
+
+    background: rgb(175, 159, 223,.77);
+
+}
+
+button:hover{
+    background: rgb(175, 159, 223,.77);
+}
+
